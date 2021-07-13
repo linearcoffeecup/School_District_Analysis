@@ -2,9 +2,9 @@
 
 ## Overview of the School District Analysis
 
-In the school district analysis project some student scores were potentially not valid and the project was to do a reanalysis of the data set without the potentially invalid data.  The data set consisted of student_data_df and school_data_df.  The suspect student scores were nulled out in student_data, and a new data set was formed, school_data_complete_df which was a merge of the data sets student_data_df and school_data_df.  The school_data_complete_df data frame was used to create the district_summary_df data frame.  In the analysis, the keys and values of this dataframe was re-used after re-calculating the values of this data frame which accounted for subtracting out the potentially invalid data.  This re-analysis was summarized in a dataframe named per_school_summary_df.  Both school_data_complete_df and per_school_summary_df were  used to generate various outputs which could be used in comparison analysis.  The result of the changes in the datasets are discussed below.
+In the school district analysis project some student scores were potentially not valid and the project was to do a reanalysis of the data set without the potentially invalid data.  The data set consisted of student_data_df and school_data_df.  The suspect student scores were nulled out in student_data, and a new data set was formed, school_data_complete_df, which was a merge of the data sets student_data_df and school_data_df.  The school_data_complete_df data frame was used to create the district_summary_df data frame.  In the analysis, the keys and values of this dataframe was re-used after re-calculating the values of this data frame which accounted for subtracting out the potentially invalid data.  This re-analysis was summarized in a dataframe named per_school_summary_df.  Both school_data_complete_df and per_school_summary_df were  used to generate various outputs which could be used in comparison analysis.
 
-The analyses are in the PyCitySchools_Challenge jupyter notebook.  It is organized where the new analysis is at the top of the file and the original analysis is below.  There is a separator showing the end of the new analysis.  The results below are from these analysis.
+The analyses are in the PyCitySchools_Challenge jupyter notebook.  It is organized where the new analysis is at the top of the file and the original analysis is below.  There is a separator showing the end of the new analysis.  The results of these analyses are discussed below.
 
 ## Results
 Using bulleted lists and images of DataFrames as support, address the following questions
@@ -14,9 +14,11 @@ Using bulleted lists and images of DataFrames as support, address the following 
 There is no affect.
 
 Original
+
 <img width="936" alt="Original district summary dataframe" src="https://user-images.githubusercontent.com/85037467/125468344-21b11021-1177-4679-969f-16cff258bb0d.png">
 
 New
+
 <img width="954" alt="New district summary" src="https://user-images.githubusercontent.com/85037467/125468451-ec3f524f-0230-4aa0-a422-f7682ac56e6c.png">
 
 
@@ -37,9 +39,9 @@ THS dropped from second overall to third overall
 
 References:
 
-Top performers origina[https://github.com/linearcoffeecup/School_District_Analysis/blob/main/Challeng%204%20images/Original/Original%20top%20performers.png]
+Top performers [original](https://github.com/linearcoffeecup/School_District_Analysis/blob/main/Challeng%204%20images/Original/Original%20top%20performers.png)
 
-Top performers original[https://github.com/linearcoffeecup/School_District_Analysis/blob/main/Challeng%204%20images/New/New%20top%20schools.png]
+Top performers [new](https://github.com/linearcoffeecup/School_District_Analysis/blob/main/Challeng%204%20images/New/New%20top%20schools.png)
 
 
 
