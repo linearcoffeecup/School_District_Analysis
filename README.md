@@ -63,7 +63,7 @@ Different bins were used so no conclusion can be drawn.
 
 There was no affect.
 
-Summary
+## Summary
 
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs
 
