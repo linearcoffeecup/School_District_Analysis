@@ -37,6 +37,8 @@ How does replacing the ninth graders’ math and reading scores affect Thomas Hi
 
 Reference:  new and original top performers
 
+Top performers origina[https://github.com/linearcoffeecup/School_District_Analysis/blob/main/Challeng%204%20images/Original/Original%20top%20performers.png]
+
 
 
 THS dropped from second overall to third overall
